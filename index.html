@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Fare Cab Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>BOOKAIRPORTCAB</h1>
+    <div class="container">
+        <div class="left-side">
+            <select>
+                <option>Airport Ride</option>
+                <option>City rental</option>
+                <option>Outstation</option>
+                <option>Package</option>
+            </select>
+            <select>
+                <option>New Delhi</option>
+            </select>
+            <select>
+                <option>IGI Airport</option>
+            </select>
+            <h3> Schedule your Ride</h3>
+            <div class="date-time">
+                <input type="date" >
+                <input type="time"  >
+            </div>
+            <div class="fare-table">
+                <h2>Fare (Select your bucket)</h2>
+                <div class="fare-row"><span>0-10 KM</span><span>499</span></div>
+                <div class="fare-row"><span>11-15 KM</span><span>599</span></div>
+                <div class="fare-row"><span>15-20 KM</span><span>699</span></div>
+                <div class="fare-row"><span>21-25 KM</span><span>799</span></div>
+                <div class="fare-row"><span>26-30 KM</span><span>899</span></div>
+                <div class="fare-row"><span>31-35 KM</span><span>999</span></div>
+                <div class="fare-row"><span>35-40 KM</span><span>1099</span></div>
+                <div class="fare-row"><span>41-45 KM</span><span>1199</span></div>
+                <button>Calculate Distance</button>
+            </div>
+            <div class="terms">
+                <input type="checkbox" id="terms" name="terms">
+                <label for="terms">I agree to these Terms and Conditions</label>
+            </div>
+            <button>Pay and update Location</button>
+        </div>
+        <div class="right-side">
+            <h2>Calculate Distance</h2>
+            <input type="text" placeholder="Enter Pickup Location (Min 7 Character)"  />
+            <input type="text" value="Delhi - IGI Airport-T3"  readonly/>  
+            <p>33 KM</p>
+        </div>
+    </div>
+</body>
+</html>

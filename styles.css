@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:rgb(241, 190, 190);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(101, 101, 204);
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border:2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+select, input[type="date"], input[type="time"], input[type="text"], button {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.fare-table {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.fare-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.date-time {
+            display: flex;
+            gap: 10px;
+        }
+        .date-time input {
+            flex: 1;
+        }
+
+button {
+    background-color: orangered;
+    color: white;
+    border: none;
+    cursor: pointer;
+     font-size: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.terms {
+    margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.right-side input {
+    margin-bottom: 10px;
+     padding-left: 30px;
+}
+
+.right-side p {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px;
+}
+.right-side h2{
+     font-size: 30px;
+      color:  orangered;
+
+} 
